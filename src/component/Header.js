@@ -5,7 +5,7 @@ import Logo from '../images/tslogo-dark.png'
 const Header = () => {
     return (
         <>
-            <Navbar style={{background:"black"}}>
+            <Navbar className='py-3' style={{background:"black"}}>
                 <Container>
                     <NavLink to="/">
                         <img src={Logo} alt='logo' style={{width:'45%'}}/>
